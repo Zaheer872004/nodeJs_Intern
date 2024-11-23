@@ -17,8 +17,7 @@
     }
   ],
   "env": {
-    "DATABASE_URL": "@DATABASE_URL",
-    "PORT": "@PORT",
-    "CORS_ORIGIN": "@CORS_ORIGIN"
+    "DATABASE_URL": "mysql://Database_user:Database_password@Host:Port_number/Database_name?sslmode=disabled",
+    "CORS_ORIGIN": "*"
   }
 }
